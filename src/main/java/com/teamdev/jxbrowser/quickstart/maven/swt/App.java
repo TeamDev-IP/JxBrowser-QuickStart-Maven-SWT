@@ -18,6 +18,8 @@
  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+package com.teamdev.jxbrowser.quickstart.maven.swt;
+
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 
 import com.teamdev.jxbrowser.browser.Browser;
@@ -32,7 +34,7 @@ import org.eclipse.swt.widgets.Shell;
  * (equivalent of the Chromium tab), embed an SWT BrowserView widget into SWT
  * shell to display content of the loaded web page, load the required web page.
  */
-public final class HelloSWT {
+public final class App {
 
     public static void main(String[] args) {
         // Initialize Chromium.
